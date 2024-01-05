@@ -1,0 +1,48 @@
+/* common style to all */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.primary-btn {
+  width: 150px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.main-text {
+  color: #fd6e0a;
+}
+/* nav start here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav li {
+  margin-left: 50px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.mary {
+  color: var(--Dark-01, #181818);
+
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+}
