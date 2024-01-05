@@ -136,3 +136,40 @@ nav a {
     margin-top: 30px;
     margin-bottom: 0;
 }
+/*======================= about end here and what I do stat here============== */
+.and-more{
+    max-width: 910px;
+    margin: 30px auto;
+}
+.skills-box{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.skill-title{
+    color: #181818;
+font-size: 20px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill-ditels{
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+width: 201px;
+}
+.what-i-do > img {
+    width: 44px;
+height: 44px;
+padding: 30px;
+}
+.skill{
+    width: 267px;
+height: 320px;
+padding:33px ;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
