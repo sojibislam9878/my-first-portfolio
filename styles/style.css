@@ -19,9 +19,11 @@
 }
 /* nav start here */
 nav {
+    padding: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -45,4 +47,40 @@ nav a {
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
+}
+.header {
+  background: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner img {
+  width: 500px;
+}
+.hi {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.title {
+    margin-top: 5px;
+    margin-bottom: 0;
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.ditles {
+    margin-top: 20px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.down-btn{
+    margin-top: 30px;
+    margin-right: 30px;
 }
