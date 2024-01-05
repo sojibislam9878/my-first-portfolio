@@ -50,6 +50,9 @@ nav a {
 }
 .header {
   background: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
   padding: 30px 30px 0px 150px;
