@@ -54,11 +54,8 @@ nav a {
   color: black;
 }
 .mary {
-  color: var(--Dark-01, #181818);
-
-  font-family: Open Sans;
+  color: #181818;
   font-size: 45px;
-  font-style: normal;
   font-weight: 800;
 }
 .header {
@@ -118,7 +115,7 @@ nav a {
   justify-content: center;
 }
 .about-info > h4 {
-    margin-top: 30px;
+  margin-top: 30px;
   text-align: center;
   color: #757575;
   font-weight: 400;
@@ -130,46 +127,89 @@ nav a {
   font-weight: 700;
   line-height: 30px;
 }
-
-}
-.me{
-    margin-top: 30px;
-    margin-bottom: 0;
+.me {
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 /*======================= about end here and what I do stat here============== */
-.and-more{
-    max-width: 910px;
-    margin: 30px auto;
+.and-more {
+  max-width: 910px;
+  margin: 30px auto;
 }
-.skills-box{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
+.skills-box {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  margin: 0px 110px;
 }
-.skill-title{
-    color: #181818;
-font-size: 20px;
-font-weight: 700;
-margin-top: 30px;
-margin-bottom: 20px;
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-.skill-ditels{
-    color:#757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px; 
-width: 201px;
+.skill-ditels {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 201px;
 }
 .what-i-do > img {
-    width: 44px;
-height: 44px;
-padding: 30px;
+  width: 44px;
+  height: 44px;
+  padding: 30px;
 }
-.skill{
-    width: 267px;
-height: 320px;
-padding:33px ;
-border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+.skill {
+  /* width: 267px;
+height: 320px; */
+  padding: 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/*=========== resume start here========= */
+.resume {
+  margin-top: 130px;
+}
+.resume-box {
+  margin:auto;
+  display: flex;
+  justify-content:space-around;
+}
+.main-resume-head {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 113px;
+}
+.resume-head{
+  color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-top: 30px;
+}
+.r-head{
+  color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 10px;
+}
+.resume-ditels{
+  color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-top: 20px;
+}
+.line{
+  background: #D1D1D1;
+  margin-top: 30px;
+}
+.right{
+  padding-right: 90px;
+}
+.cv {
+  margin: 50px 700px 113px 700px;
 }
