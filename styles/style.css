@@ -5,14 +5,22 @@
   font-family: "Open Sans", sans-serif;
 }
 .primary-btn {
-  width: 150px;
-  height: 64px;
+  padding: 20px;
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
   font-size: 20px;
   font-weight: 700;
   color: white;
+ 
+}
+.last-icon{
+  padding: 7px;
+}
+.only-icon{
+  display: flex;justify-content: center;
+  align-items: center;
+
 }
 .main-text {
   color: #fd6e0a;
@@ -73,6 +81,9 @@ nav a {
 }
 .banner img {
   width: 500px;
+}
+.flex{
+  display: flex;
 }
 .banner-content {
   padding-left: 100px;
@@ -211,7 +222,7 @@ nav a {
   padding-right: 90px;
 }
 .cv {
-  margin: 50px 700px 113px 700px;
+  margin: 50px 600px 113px 600px;
 }
 .footer {
   display: flex;
